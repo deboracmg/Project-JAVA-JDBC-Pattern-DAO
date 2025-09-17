@@ -9,29 +9,30 @@ Projeto de acesso a banco de dados utilizando Java e JDBC, aplicando o padrão D
 ## 📌 Visão Geral
 
 Este projeto demonstra:
-🔗 Conexão com banco de dados via JDBC
-📂 Aplicação do padrão DAO (Data Access Object)
-🖼️ Interface gráfica simples com JOptionPane
+- Conexão com banco de dados via JDBC 🔗
+- Aplicação do padrão DAO (Data Access Object) 📂
+- Interface gráfica simples com JOptionPane 🖼️
+
 Ideal para estudos sobre arquitetura de software, persistência de dados e CRUD em Java.
 
 ---
 
 ## ✨ Funcionalidades
 
-➕ Criar registros (Create)
-🔍 Consultar registros (Read)
-✏️ Atualizar registros (Update)
-❌ Remover registros (Delete)
-💬 Interação com usuário via JOptionPane
+- Criar registros (Create) ➕
+- Consultar registros (Read) 🔍
+- Atualizar registros (Update) ✏️
+- Remover registros (Delete) ❌
+- Interação com usuário via JOptionPane 💬
 
 ---
 
 ## 🛠️ Tecnologias
 
-☕ Java (versão: 21)
-🗄️ JDBC
-🐬 Banco de dados (MySQL)
-🖼️ Swing/JOptionPane
+- Java (versão: 21) ☕
+- JDBC 🗄️
+- Banco de dados (MySQL) 🐬
+- Swing/JOptionPane 🖼️
 
 ---
 
@@ -50,10 +51,10 @@ Project/
 
 ## ⚙️ Requisitos
 
-☕ Java instalado (>= 21)
-🔌 Driver JDBC do banco configurado
-🗄️ Banco de dados criado com tabelas necessárias
-💻 IDE (Eclipse, IntelliJ, NetBeans) ou terminal com javac/java
+- Java instalado (>= 21) ☕
+- Driver JDBC do banco configurado 🔌
+- Banco de dados criado com tabelas necessárias 🗄️
+- IDE (Eclipse, IntelliJ, NetBeans) ou terminal com javac/java 💻
 
 ---
 
