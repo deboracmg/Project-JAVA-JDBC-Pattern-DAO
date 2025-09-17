@@ -40,7 +40,6 @@ public class DepartmentDaoJDBC implements DepartmentDao {
 			} else {
 				throw new DbException("Unexpected error: No rows affected!");
 			}
-	
 		} catch (SQLException e) {
 			throw new DbException(e.getMessage());
 		} finally {
@@ -70,7 +69,7 @@ public class DepartmentDaoJDBC implements DepartmentDao {
 			ps=conn.prepareStatement("delete from department where Id=?");
 			ps.setInt(1, id);
 			ps.executeUpdate();
-		} catch (SQLException e) {
+		} catch (SQLException e) {;
 			throw new DbException(e.getMessage());
 		} finally {
 			DB.closeStatement(ps);
